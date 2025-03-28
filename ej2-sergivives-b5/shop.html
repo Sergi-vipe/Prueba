@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Courage</title>
+    
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+        <!-- Iconos Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/responsive.css">
+
+    </head>
+
+    <body>
+        <header>
+            <a href="index.html"><img src="/img/index/logo.png" alt="Logo"></a>
+            <button class="abrir-menu" id="abrir"><i class="bi bi-list"></i></button>
+            <nav class="nav" id="nav">
+                <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+                <ul class="nav-list">
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li><a href="drop.html">DROP</a></li>
+                    <li><a href="faqs.html">FAQS</a></li>
+                    <li><a href="#buscador.html">
+                            <i class="bi bi-search"></i>
+                            <span class="texto-nav-responsive">BUSCADOR</span>
+                        </a>
+                    </li>
+                    <li><a href="cuenta.html">
+                            <i class="bi bi-person"></i>
+                            <span class="texto-nav-responsive">CUENTA</span>
+                        </a>
+                    </li>
+                    <li><a href="cesta.html">
+                            <i class="bi bi-bag"></i>
+                            <span class="texto-nav-responsive">CESTA</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <script src="/js/navbar.js"></script>
+
+        <div class="portada shop">
+            <h1>NEW ARRIVALS</h1>
+            <button class="button-terciario"><a href="shop.html">SHOP NOW</a></button>     
+        </div>
+
+        <div class="contenedor-principal">
+
+            <div class="categorias-shop">
+                <div class="categoria-card sexo">
+                    <img src="/img/shop/seccion-hombre.webp" alt="hombre">
+                    <div class="overlay">
+                        <h1>HOMBRE</h1>
+                        <button class="button-terciario"><a href="shop.html">VER TODO</a></button>
+                    </div>
+                </div>
+
+                <div class="categoria-card sexo">
+                    <img src="/img/shop/seccion-mujer.webp" alt="mujer">
+                    <div class="overlay">
+                        <h1>MUJER</h1>
+                        <button class="button-terciario"><a href="shop.html">VER TODO</a></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="seccion-sexo">
+
+                <div class="titulo-seccion">
+                    <h1>Best Seller</h1>
+                    <button class="button-principal"><a href="shop.html">VER TODO</a></button>
+                </div>
+                
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="ficha-producto.html">
+                                <img src="/img/index/carrusel/hombres/img-1.jpg" alt="img-1">
+                                <div class="nombre-precio">
+                                    <h4>Sudadera</h4>
+                                    <p>25,00€</p>
+                                </div>   
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/index/carrusel/hombres/img-2.jpg" alt="img-2">
+                            <div class="nombre-precio">
+                                <h4>Cazadora</h4>
+                                <p>45,00€</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/index/carrusel/hombres/img-3.jpg" alt="img-3">
+                            <div class="nombre-precio">
+                                <h4>Pantalones Vaqueros</h4>
+                                <p>35,00€</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/index/carrusel/hombres/img-4.jpg" alt="img-4">
+                            <div class="nombre-precio">
+                                <h4>Abrigo</h4>
+                                <p>80,00€</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/index/carrusel/hombres/img-5.jpg" alt="img-5">
+                            <div class="nombre-precio">
+                                <h4>Pantalones</h4>
+                                <p>35,00€</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/index/carrusel/hombres/img-6.jpg" alt="img-6">
+                            <div class="nombre-precio">
+                                <h4>Camiseta</h4>
+                                <p>20,00€</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/index/carrusel/hombres/img-7.jpg" alt="img-7">
+                            <div class="nombre-precio">
+                                <h4>Camiseta</h4>
+                                <p>20,00€</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/index/carrusel/hombres/img-8.jpg" alt="img-8">
+                            <div class="nombre-precio">
+                                <h4>Pantalón Vaquero</h4>
+                                <p>35,00€</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/index/carrusel/hombres/img-9.jpg" alt="img-9">
+                            <div class="nombre-precio">
+                                <h4>Abrigo</h4>
+                                <p>60,00€</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/index/carrusel/hombres/img-10.jpg" alt="img-10">
+                            <div class="nombre-precio">
+                                <h4>Gafas de Sol</h4>
+                                <p>15,00€</p>
+                            </div>
+                        </div>
+                
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+                <!-- Swiper JS -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+                <!-- Initialize Swiper -->
+                <script src="/js/carrusel-swiper.js"></script>
+            </div>
+
+            <div class="galeria-productos">
+                <h1>Sudaderas y Camisetas</h1>
+
+                <div class="galeria">
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-sudaderas-camisetas/img-1.jpg" alt="img-1">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-sudaderas-camisetas/img-2.jpg" alt="img-2">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-sudaderas-camisetas/img-3.jpg" alt="img-3">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-sudaderas-camisetas/img-4.jpg" alt="img-4">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-sudaderas-camisetas/img-5.jpg" alt="img-5">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-sudaderas-camisetas/img-6.jpg" alt="img-6">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-sudaderas-camisetas/img-7.jpg" alt="img-7">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-sudaderas-camisetas/img-8.jpg" alt="img-8">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-sudaderas-camisetas/img-9.jpg" alt="img-9">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-sudaderas-camisetas/img-10.jpg" alt="img-10">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-sudaderas-camisetas/img-11.jpg" alt="img-11">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-sudaderas-camisetas/img-12.jpg" alt="img-12">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    
+
+                    
+                </div>
+                <button class="button-principal"><a href="shop.html">VER TODO</a></button>
+            
+            </div>
+
+            <div class="galeria-productos">
+                <h1>Pantalones y Accesorios</h1>
+
+                <div class="galeria">
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-pantalones-accesorios/img-1.jpg" alt="img-1">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-pantalones-accesorios/img-2.jpg" alt="img-2">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-pantalones-accesorios/img-3.jpg" alt="img-3">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-pantalones-accesorios/img-4.jpg" alt="img-4">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-pantalones-accesorios/img-5.jpg" alt="img-5">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-pantalones-accesorios/img-6.jpg" alt="img-6">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-pantalones-accesorios/img-8.jpg" alt="img-7">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-pantalones-accesorios/img-7.jpg" alt="img-8">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-pantalones-accesorios/img-10.jpg" alt="img-9">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-pantalones-accesorios/img-9.jpg" alt="img-10">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-pantalones-accesorios/img-12.jpg" alt="img-11">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                    <div class="card-galeria">
+                        <img src="/img/shop/galeria-pantalones-accesorios/img-11.jpg" alt="img-12">
+                        <div class="overlay">
+                            <button class="button-terciario"><a href="ficha-producto.html">SHOP NOW</a></button>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="button-principal"><a href="shop.html">VER TODO</a></button>
+            
+            </div>
+
+
+            <div class="seccion-sexo">
+
+                <div class="titulo-seccion">
+                    <h1>On Sale</h1>
+                    <button class="button-principal"><a href="shop.html">VER TODO</a></button>
+                </div>
+                
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="/img/index/carrusel/hombres/img-1.jpg" alt="img-1">
+                            <div class="nombre-precio">
+                                <h4>Sudadera</h4>
+                                <div class="precio-rebajas">
+                                    <p class="precio-anterior">35,00€</p>
+                                    <p>25,00€</p>  
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/index/carrusel/hombres/img-2.jpg" alt="img-2">
+                            <div class="nombre-precio">
+                                <h4>Cazadora</h4>
+                                <div class="precio-rebajas">
+                                    <p class="precio-anterior">85,00€</p>
+                                    <p>45,00€</p>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/index/carrusel/hombres/img-3.jpg" alt="img-3">
+                            <div class="nombre-precio">
+                                <h4>Pantalones Vaqueros</h4>
+                                <div class="precio-rebajas">
+                                    <p class="precio-anterior">55,00€</p>
+                                    <p>35,00€</p>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/index/carrusel/hombres/img-4.jpg" alt="img-4">
+                            <div class="nombre-precio">
+                                <h4>Abrigo</h4>
+                                <div class="precio-rebajas">
+                                    <p class="precio-anterior">120,00€</p>
+                                    <p>80,00€</p>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/index/carrusel/hombres/img-5.jpg" alt="img-5">
+                            <div class="nombre-precio">
+                                <h4>Pantalones</h4>
+                                <div class="precio-rebajas">
+                                    <p class="precio-anterior">55,00€</p>
+                                    <p>35,00€</p>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/index/carrusel/hombres/img-6.jpg" alt="img-6">
+                            <div class="nombre-precio">
+                                <h4>Camiseta</h4>
+                                <div class="precio-rebajas">
+                                    <p class="precio-anterior">40,00€</p>
+                                    <p>20,00€</p>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/index/carrusel/hombres/img-7.jpg" alt="img-7">
+                            <div class="nombre-precio">
+                                <h4>Camiseta</h4>
+                                <div class="precio-rebajas">
+                                    <p class="precio-anterior">40,00€</p>
+                                    <p>20,00€</p>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/index/carrusel/hombres/img-8.jpg" alt="img-8">
+                            <div class="nombre-precio">
+                                <h4>Pantalón Vaquero</h4>
+                                <div class="precio-rebajas">
+                                    <p class="precio-anterior">55,00€</p>
+                                    <p>35,00€</p>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/index/carrusel/hombres/img-9.jpg" alt="img-9">
+                            <div class="nombre-precio">
+                                <h4>Abrigo</h4>
+                                <div class="precio-rebajas">
+                                    <p class="precio-anterior">90,00€</p>
+                                    <p>60,00€</p>  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="/img/index/carrusel/hombres/img-10.jpg" alt="img-10">
+                            <div class="nombre-precio">
+                                <h4>Gafas de Sol</h4>
+                                <div class="precio-rebajas">
+                                    <p class="precio-anterior">25,00€</p>
+                                    <p>15,00€</p>  
+                                </div>
+                            </div>
+                        </div>
+                
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+
+                <!-- Swiper JS -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+                <!-- Initialize Swiper -->
+                <script src="/js/carrusel-swiper.js"></script>
+            </div>
+        </div>
+
+        <footer class="main-footer">
+
+            <nav>
+
+                <ul class="main-nav-footer">
+                    <li><a href="#contacto.html">CONTACTO</a></li>
+                    <li><a href="#politica-envios.html">POLÍTICA DE ENVÍOS</a></li>
+                    <li><a href="#cambios-devoluciones.html">CAMBIOS Y DEVOLUCIONES</a></li>
+                    <li class="logo"><a href="index.html"><img src="/img/index/logo.png" alt="Logo"></a></li>
+                    <li><a href="#terminos-servicio.html">TÉRMINOS DE SERVICIO</a></li>
+                    <li><a href="#aviso-legal.html">AVISO LEGAL</a></li>
+                    <li><a href="#politicas-privacidad.html">POLÍTICA PRIVACIDAD</a></li>
+                </ul>
+
+            </nav>
+            
+        </footer>
+        
+    </body>
+
+</html>
